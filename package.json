@@ -1,0 +1,22 @@
+{
+  "name"          : "nodejs-multisock",
+  "description"   : "Allows TCP and WebSockets to run simultaneously in node.js",
+  "keywords"      : ["multisock", "socket", "ws", "tcp", "net"],
+  "author"        : "Philipp Kuebler <info@pkuebler.de>",
+  "main"          : "multisock.js",
+  "version"       : "0.0.1",
+  "scripts"       : {
+    "test"        : "node test/test"
+  },
+  "dependencies"  : {
+    "ws": "0.7.1"
+  },
+  "repository"    : {
+    "type": "git",
+    "url": "https://github.com/PKuebler/nodejs-multisock"
+  },
+  "devDependencies" : {
+    "utest"         : "~0.0.8"
+  },
+  "license"       : "MIT"
+}
