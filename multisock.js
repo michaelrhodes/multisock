@@ -2,7 +2,7 @@
 var util = require('util'),
 	events = require('events'),
 	net = require('net'),
-	WebSocketServer = require('ws').Server;
+	WebSocketServer = require('uws').Server;
 
 function Multisock(options) {
 

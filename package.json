@@ -9,7 +9,7 @@
     "test"        : "node test/test"
   },
   "dependencies"  : {
-    "ws": "0.7.1"
+    "uws": "0.4.1"
   },
   "repository"    : {
     "type": "git",
