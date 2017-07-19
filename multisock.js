@@ -5,12 +5,15 @@ var util = require('util'),
 	WebSocketServer = require('uws').Server;
 
 function Multisock(options) {
+	if (!(this instanceof Multisock)) {
+		return new Multisock(options);
+	}
 
 	this.options = {
 		tcpPort: 8000,
 		wsPort: 7000,
 		maxConnections: 0
-	}
+	};
 
 	this._connections = [];
 	this._tcp = null;
