@@ -8,7 +8,7 @@ Allows TCP and WebSockets to run simultaneously. Use [net](http://nodejs.org/api
 # Install
 
 ```bash
-  npm install node-multisock
+  npm install michaelrhodes/multisock
 ```
 
 # Examples:
