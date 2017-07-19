@@ -16,7 +16,7 @@ Allows TCP and WebSockets to run simultaneously. Use [net](http://nodejs.org/api
 ## Initialize (INIT):
 
 ```js
-var Multisock = require( "nodejs-multisock" );
+var Multisock = require('multisock');
 var ms = new Multisock();
 ```
 
