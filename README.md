@@ -29,7 +29,7 @@ var ms = new Multisock();
 ## Get Started
 
 ```js
-var Multisock = require( "nodejs-multisock" );
+var Multisock = require('multisock');
 
 var options = {
     tcpPort: 70000,
