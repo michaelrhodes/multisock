@@ -1,5 +1,5 @@
 {
-  "name"          : "nodejs-multisock",
+  "name"          : "multisock",
   "description"   : "Allows TCP and WebSockets to run simultaneously in node.js",
   "keywords"      : ["multisock", "socket", "ws", "tcp", "net"],
   "author"        : "Philipp Kuebler <info@pkuebler.de>",
